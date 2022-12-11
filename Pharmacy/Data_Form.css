@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    
+
+}
+.container {
+    width: 1200px;
+    height: 500px;
+    background-color:white;
+    margin:50px;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+
+}
+
+.main {
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    display: block;
+    position: relative;
+}
+
+.submain {
+    display: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    background-image: url('Lab-Test/lab-test.jpg');
+}
+
+h2,
+h3,
+h4 {
+    margin-left: 40px;
+}
+
+input,
+select {
+    color: rgb(13, 12, 12);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 220px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-bottom:1px solid grey
+}
+
+input:focus {
+    outline: none;
+    color: rgb(38, 7, 7);
+    background-color: rgba(70, 131, 180, 0.35);
+}
+
+#dates,#times {
+    width: 120px;
+    color: rgb(38, 7, 7);
+    margin-left: 40px;
+}
+
+.buttondesign {
+    margin-left: 18%;
+
+}
+button{
+    margin-left: 80px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 85px;
+    font-size: 18px;
+    border-radius: 4px;
+}

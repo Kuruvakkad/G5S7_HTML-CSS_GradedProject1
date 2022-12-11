@@ -1,0 +1,193 @@
+body{
+    margin: 0%;
+    height: auto;
+    
+
+}
+header h1{
+    margin: 0%;
+    height: 100px;
+    background-color:#2e2d2d;
+    color: white;
+    text-align: right;
+    padding-right: 12%;
+
+    font-size: 80px;
+    position: relative;
+
+}
+#navbar{
+    position: sticky;
+    z-index: 1;
+    top: 0%;     
+    
+}
+#navbar a{
+    display: block;
+}
+
+.mainmenu{
+    margin: 0%;
+    background-color: rgb(97, 97, 98);
+    position: relative;
+    
+    
+}
+.mainmenu li{
+    display: inline-block;
+    padding: 10px;    
+    
+}
+
+.mainmenu li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    
+}
+.mainmenu li:hover{
+    background-color: black;
+}
+.sbmenu1{
+    display:none;
+    position: absolute;    
+  width: auto;
+  top: 43px;
+  padding: 0%;
+  white-space: nowrap;   
+
+}
+.sbmenu1 li,.submenu2 li{
+    display: block;
+    background-color: white;
+}
+.sbmenu1 li a, .submenu2 li a{
+    color: steelblue;
+    font-size: 15px;
+}
+.sbmenu1 li:hover{
+    background-color: aquamarine;
+}
+.submenu2 li:hover{
+    background-color: aquamarine;
+}
+.submenu2{
+    display:none;
+    position: absolute;
+    width: auto;
+    top: 43px;
+    padding: 0%;
+    white-space: nowrap;
+    background-color: lightgray;
+}
+
+/*or we can use */
+/*#navbar .mainmenu li:hover>.mainmenu{
+    display: inherit;
+}*/
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+
+
+#First_Section{
+    margin: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    position: relative;
+}
+.Test_Kit{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    border: 2px red;
+    margin: 35px;
+    width: 300px;
+    height: 200px
+    padd
+    
+}
+.Test_Kit img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    
+}
+.labesnbutton{
+    color: blue;
+    width: 280px;
+    font-size: 20px;
+   
+}
+.labesnbutton button{
+    width: 300px;
+    border-radius: 4px;
+    border-color: blue;
+    height: 25px;
+    color: orange;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(212, 219, 219);
+}
+.labesnbutton button:hover{
+    background-color: rgb(250, 234, 230);
+    border-color: rgb(0, 255, 76);
+    height:30px;
+    width: 310px;
+}
+.imageAnimation{
+    background-image: url('ani1.jpg');  
+     width: 1000px; /* or any custom size */
+     height: 300px; 
+     object-fit: contain;
+    border: 2px solid steelblue;
+    animation-name: imagechanger;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes imagechanger {
+     0% {
+         background-image: url('animations/ani1.jpg');  
+         width: 1500px; /* or any custom size */
+         height: 300px; 
+         background-repeat: none;
+     }
+     25% {
+         background-image: url('animations/ani2.png');  
+         width: 1500px; /* or any custom size */
+         height: 300px; 
+         background-repeat: none; 
+     }
+     50% {
+         background-image: url('animations/ani3.jpg');  
+         width: 1500px; /* or any custom size */
+         height: 300px; 
+         background-repeat: none;
+     }
+     75% {
+         background-image: url('animations/ani4.jpg');  
+         width: 1500px; /* or any custom size */
+         height: 300px; 
+         background-repeat: none;
+     }
+     100% {
+         background-image: url('animations/ani5.jpg');  
+         width: 1500px; /* or any custom size */
+         height: 300px; 
+         background-repeat: none; 
+     }
+ }
+ 
+
+
+footer h4{
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
